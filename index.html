@@ -27,7 +27,8 @@
                   <button id="firstMinus" class="btn btn-default">
                     <i class="fas fa-minus"></i>
                   </button>
-                  <input id="firstCount" type="text" class="form-control text-center" value="1" />
+                  <input id="firstCount" type="number" min="1" onkeypress="return event.charCode >= 48"
+                    class="form-control text-center" value="1" />
                   <button id="firstPlus" class="btn btn-default">
                     <i class="fas fa-plus"></i>
                   </button>
@@ -49,7 +50,8 @@
                   <button id="secondMinus" class="btn btn-default">
                     <i class="fas fa-minus"></i>
                   </button>
-                  <input id="secondCount" type="text" class="form-control text-center" value="1" />
+                  <input id="secondCount" type="number" min="1" onkeypress="return event.charCode >= 48"
+                    class="form-control text-center" value="1" />
                   <button id="secondPlus" class="btn btn-default">
                     <i class="fas fa-plus"></i>
                   </button>
@@ -69,9 +71,9 @@
               </div>
 
               <div class="col-md-4 status">
-                <h5>$ <span id="subTotal">1,278</span></h5>
-                <h5>$ <span id="tax">0</span></h5>
-                <h5>$ <span id="total">1,278</span></h5>
+                <h5>$ <span id="subTotal">1278</span></h5>
+                <h5>$ <span id="tax">60</span></h5>
+                <h5>$ <span id="total">1278</span></h5>
               </div>
             </div>
           </div>
